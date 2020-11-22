@@ -1,0 +1,24 @@
+.next-hand-button {
+  background: linear-gradient(to bottom, green 5%, darkgreen 100%);
+  background-color: green;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-family: PT Serif;
+}
+
+.next-hand-button:hover {
+  background: linear-gradient(to bottom, darkgreen 5%, green 100%);
+  background-color: darkgreen;
+}
+
+.next-hand-button:active {
+  position: relative;
+  top: 1px;
+}

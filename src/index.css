@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: PT Serif;
+}
+
+body {
+  background-color: rgb(70, 40, 70);
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-header {
+  font-size: 52px;
+  margin-bottom: 0.5%;
+  text-decoration: none;
+  color: gold;
+  -webkit-text-stroke: 0.1px white;
+}
+
+@media (max-width: 1024px) {
+  #main-header {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  #main-header {
+    font-size: 34px;
+  }
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+}

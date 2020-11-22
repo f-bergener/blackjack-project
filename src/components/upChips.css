@@ -1,0 +1,47 @@
+/*width is number of chips * 8 for larger computers*/
+
+.increase-chips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .increase-chips {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/*Chip Font Size / Width is 0.2875*/
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 23px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .chip {
+    width: 60px;
+    height: 60px;
+    font-size: 17.25px;
+    border-width: 6px;
+  }
+}
+
+@media (max-width: 500px) {
+  .chip {
+    width: 50px;
+    height: 50px;
+    font-size: 14.375px;
+    border-width: 5px;
+  }
+}

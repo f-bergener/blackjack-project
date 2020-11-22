@@ -1,0 +1,219 @@
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 10px;
+  }
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#bankroll {
+  margin-bottom: -0.4%;
+}
+
+#hand-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+  margin-bottom: 1.4%;
+}
+
+@media (max-width: 1024px) {
+  #hand-section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  #hand-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.hand-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+/*Width / Height of the card is 0.7133*/
+.card {
+  width: 85.6px;
+  height: 120px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 62.77px;
+    height: 88px;
+  }
+}
+
+/*Card Back Width / Card Width is 1.0374 and Card Back Height / Card Height is 1.0325*/
+.card-back {
+  width: 88.8px;
+  height: 123.9px;
+}
+
+@media (max-width: 768px) {
+  .card-back {
+    width: 65.12px;
+    height: 90.86px;
+  }
+}
+
+.button {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-family: PT Serif;
+}
+
+@media (max-width: 380px) {
+  .button {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.button.deal-button {
+  background: linear-gradient(to bottom, green 5%, darkgreen 100%);
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+}
+
+.button.deal-button:hover {
+  background: linear-gradient(to bottom, darkgreen 5%, green 100%);
+  background-color: darkgreen;
+}
+
+.game-buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.button.hit-button {
+  background: linear-gradient(to bottom, green 5%, darkgreen 100%);
+  background-color: green;
+  border: 1px solid white;
+  color: white;
+}
+
+.button.hit-button:hover {
+  background: linear-gradient(to bottom, darkgreen 5%, green 100%);
+  background-color: darkgreen;
+}
+
+.button.stay-button {
+  background: linear-gradient(to bottom, red 5%, darkred 100%);
+  background-color: red;
+  border: 1px solid white;
+  color: white;
+}
+
+.button.stay-button:hover {
+  background: linear-gradient(to bottom, darkred 5%, red 100%);
+  background-color: darkred;
+}
+
+.button.double-down-button {
+  background: linear-gradient(to bottom, #ffff00 5%, #cccc00 100%);
+  background-color: #ffff00;
+  border: 1px solid white;
+  color: grey;
+}
+
+.button.double-down-button:hover {
+  background: linear-gradient(to bottom, #cccc00 5%, #ffff00 100%);
+  background-color: #cccc00;
+}
+
+.button.split-button {
+  background: linear-gradient(to bottom, blue 5%, darkblue 100%);
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+}
+
+.button.split-button:hover {
+  background: linear-gradient(to bottom, darkblue 5%, blue 100%);
+  background-color: darkblue;
+}
+
+.navigation-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.button.restart-game-button {
+  background: linear-gradient(to bottom, grey 5%, darkgrey 100%);
+  background-color: grey;
+  border: 1px solid white;
+  color: white;
+}
+
+.button.restart-game-button:hover {
+  background: linear-gradient(to bottom, darkgrey 5%, grey 100%);
+  background-color: darkgrey;
+}
