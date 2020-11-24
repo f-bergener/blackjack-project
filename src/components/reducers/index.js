@@ -105,8 +105,21 @@ const gameReducer = (state = initialState, action) => {
       currentCardDeck: newCardDeck,
       bankroll: 5000,
       bet: 0,
+      pot: 0,
+      splitPot: 0,
+      playerHand: [],
+      dealerHand: [],
+      splitHand: [],
       playerCount: 0,
       dealerCount: 0,
+      splitCount: 0,
+      activeHandBoolean: true,
+      hitBoolean: false,
+      stayBoolean: false,
+      doubleDownBoolean: false,
+      splitBoolean: false,
+      splitHitBoolean: false,
+      splitStayBoolean: false,
     };
   } else if (action.type === "ADD_TO_BET") {
     let newBet = parseInt(state.bet) + parseInt(action.payload);
